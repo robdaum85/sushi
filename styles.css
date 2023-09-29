@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Estilizando os botões do Bootstrap */
+.btn {
+    margin: 5px;
+}
+
+/* Adicione outros estilos personalizados conforme necessário */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 14px;
+}
+
+/* Estilo para a imagem do logo */
+.navbar .logo img {
+    width: 100%; /* Ajusta a largura da imagem para ocupar 100% do espaço disponível */
+    height: auto; /* Mantém a proporção original da imagem */
+    max-width: 300px; /* Define a largura máxima para evitar que a imagem fique muito grande */
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    background-color: red;
+}
+
+/* Estilos para os ícones das redes sociais */
+.navbar .nav-item i {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.slider {
+    height: 300px;
+    background-image: url('/sushi/testeslider.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.slider-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title-block {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.image-block {
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
