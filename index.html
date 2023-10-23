@@ -4,289 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Du Villar Sushi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Site em Construção</title>
     <style>
-        .navbar {
-            background-color: black;
-        }
-
-        .navbar-brand img {
-            width: 100px;
-        }
-
-        .navbar-nav .nav-item .nav-link {
-            color: white;
-        }
-
-        .navbar-nav .nav-item .nav-link:hover {
-            background-color: red;
-            color: white;
-        }
-
-        .hero-section {
-            height: 60vh;
-            background-image: url('slider.jpg');
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('duvillar.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
-            align-items: center;
             justify-content: center;
-            text-align: center;
+            align-items: center;
+            flex-direction: column;
             color: white;
-        }
-
-        .frutos-do-mar-section {
-            height: 6vh;
-            background-color: red;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             text-align: center;
+            font-family: Arial, sans-serif;
         }
 
-        .cards-section {
-            height: 39vh;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
         }
 
-        .sabores-section {
-            height: 6vh;
-            background-color: black;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .bloco-section {
-            height: 40vh;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .contato-section {
-            height: 60vh;
-            background-color: black;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .footer-section {
-            background-color: white;
-            color: dark;
-            text-align: center;
-        }
-
-        .card-img-top {
-            height: 150px;
-            object-fit: cover;
+        p {
+            font-size: 18px;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="testelogosemfundo.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Peixes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Comida Japonesa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Delivery</a>
-                    </li>
-                    <!-- Ícones de Redes Sociais -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-
-    <!-- Seção do Herói -->
-    <section class="hero-section">
-        <div class="container text-center">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6">
-                    <h1 class="display-4">Sushi Delivery</h1>
-                    <a href="#" class="btn btn-danger btn-lg">PEDIR AGORA</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Frutos do Mar -->
-    <section class="frutos-do-mar-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Frutos do Mar</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Cards -->
-    <section class="cards-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="peixe1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 1</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="peixe2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 2</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="peixe3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 3</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Botão "Veja Mais" -->
-            <div class="row justify-content-center mt-4">
-                <a href="#" class="btn btn-danger btn-lg">Veja Mais</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Sabores -->
-    <section class="sabores-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Nosso Mar de Sabores</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Bloco com Imagem de Card à Esquerda -->
-    <section class="bloco-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="peixe2.jpg" alt="Imagem do Card">
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="bg-white p-4">
-                        <h3>Título do Bloco</h3>
-                        <p>Texto descritivo ou conteúdo do bloco. Você pode adicionar informações sobre o produto ou serviço aqui.</p>
-                        <a href="#" class="btn btn-danger btn-lg">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Contato -->
-<section class="contato-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <img src="testelogosemfundo.png" alt="Imagem à Esquerda" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <h2>Du Villar | Fale Conosco</h2>
-                <p>Venha conhecer nossa boutique de frutos do mar e sushi bar</p>
-                <!-- Formulário com ação para enviar mensagem via WhatsApp -->
-                <form action="https://api.whatsapp.com/send" method="get" target="_blank">
-                    <!-- Campos do formulário -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome" name="text" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="E-mail" name="text" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" class="form-control" placeholder="Telefone" name="text" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="4" placeholder="Mensagem" name="text" required></textarea>
-                    </div>
-                    <!-- Número de telefone de destino -->
-                    <input type="hidden" name="phone" value="5521965801728">
-                    <!-- Botão para enviar via WhatsApp -->
-                    <button type="submit" class="btn btn-danger">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    <!-- Footer -->
-    <footer class="footer-section">
-        <div class="container">
-            <p>Du Villar 2023 | Todos os Direitos Reservados</p>
-        </div>
-    </footer>
-
-    <!-- Scripts do Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <h1>Site em Construção</h1>
+    <p>Estamos trabalhando para trazer uma ótima experiência em breve. Por favor, volte mais tarde!</p>
 </body>
 
 </html>
